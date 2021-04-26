@@ -5,7 +5,6 @@ import {styles} from '../style/styles'
 
 export default function Button(props) {
     const {onPress,title} = props 
-    console.log(onPress);
     return (
         <TouchableOpacity onPress={onPress}>
             <Text style={styles.btn}>{title}</Text>
