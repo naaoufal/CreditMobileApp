@@ -7,10 +7,12 @@ import {useHistory} from 'react-router-native'
 export default function Reservation () {
     const history = useHistory()
     return (
-        <TextInput
-        style={styles.inp}
-        placeholder={'Enter Votre Nom'}
-        />
+        <View style={styles.cont}>
+            <TextInput
+            style={styles.inp}
+            placeholder={'Enter Votre Nom'}
+            />
+        </View>
     )
 }
 

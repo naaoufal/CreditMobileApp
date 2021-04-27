@@ -50,7 +50,14 @@ export const styles = StyleSheet.create({
         height: 50,
         resizeMode: 'contain'
     },
+    cont : {
+        justifyContent : "center"
+    },
     inp : {
-        width : width / 0.2
+        width : width / 1.2,
+        marginTop : 100,
+        padding : 40,
+        borderColor : "black",
+        borderWidth : 2
     }
 })
