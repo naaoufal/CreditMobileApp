@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
         borderRadius:25,
         paddingHorizontal:10,
         paddingVertical:6,
-        width:80,
+        width:90,
         textAlign:'center',
         alignItems: 'flex-end',
         
@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
     imageBackground: {
         flex: 1,
         flexDirection: "column",
-        alignItems: "center",
+        // alignItems: "center",
         // justifyContent: "space-evenly",
         // paddingVertical: 100,
     },
@@ -56,12 +56,10 @@ export const styles = StyleSheet.create({
     },
     inp : {
         width : width / 1.2,
-<<<<<<< HEAD
         marginTop : 100,
         padding : 40,
         borderColor : "black",
-        borderWidth : 2
-=======
+        borderWidth : 2,
         marginTop : 20,
         padding : 10,
         borderColor : "gray",
@@ -71,6 +69,30 @@ export const styles = StyleSheet.create({
     tle : {
         fontSize : 30,
         color : '#rgb(238,59,69)'
->>>>>>> 80c26bd8aac72219e007b9cc4a71e3428eae7cf2
+    },
+    creditSection:{
+        height:height,
+        padding:25,
+        backgroundColor:'rgba(0, 0, 0, 0.55)',
+        alignItems:'center'
+    },
+    creditSectionMt:{
+        backgroundColor:'rgba(0, 0, 0, 0.5)',
+        padding:15,
+        borderRadius:24,
+        width:width / 1.1,
+        marginVertical:5
+    },
+    creditText:{
+        color:'white',
+        fontSize:15
+    },
+    creditTitle:{
+        fontSize:60,
+        color:'white'
+    },
+    creditAmortissment:{
+        fontSize:20,
+        color:'#fff'
     }
 })

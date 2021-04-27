@@ -27,8 +27,8 @@ var firebaseConfig = {
     appId: "1:783285913405:web:2bd1e6f60eb94ba3b46754"
 };
 
-firebase.initializeApp(firebaseConfig);
-firebase.firestore();
+// firebase.initializeApp(firebaseConfig);
+// firebase.firestore();
 
 export default function Reservation () {
     
@@ -71,10 +71,7 @@ export default function Reservation () {
     }
 
     return (
-<<<<<<< HEAD
         
-=======
->>>>>>> 80c26bd8aac72219e007b9cc4a71e3428eae7cf2
         <View style={styles.cont}>
             <Text style={styles.tle}>Validation de Mes Cordonnées</Text>
             <TextInput
