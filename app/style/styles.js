@@ -46,18 +46,31 @@ export const styles = StyleSheet.create({
         // width:width / 2.5,
         // height:height /3,
         // flex: 1,
-        width: 120,
+        width: 130,
         height: 50,
         resizeMode: 'contain'
     },
     cont : {
-        justifyContent : "center"
+        marginTop : 120,
+        alignItems : "center"
     },
     inp : {
         width : width / 1.2,
+<<<<<<< HEAD
         marginTop : 100,
         padding : 40,
         borderColor : "black",
         borderWidth : 2
+=======
+        marginTop : 20,
+        padding : 10,
+        borderColor : "gray",
+        borderWidth : 2,
+        borderRadius : 10
+    },
+    tle : {
+        fontSize : 30,
+        color : '#rgb(238,59,69)'
+>>>>>>> 80c26bd8aac72219e007b9cc4a71e3428eae7cf2
     }
 })
