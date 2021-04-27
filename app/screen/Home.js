@@ -19,8 +19,8 @@ export default function Home() {
                 <Image 
                 style={styles.logo}
                 source={Logo} />
-                <Button title='login' onPress={() => {
-                history.push("/login");
+                <Button title='credit' onPress={() => {
+                history.push("/credit");
             }} />
             </View>
             <View>
