@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { NativeRouter, Switch, Route } from 'react-router-native';
 import Home from './app/screen/Home'
 import Credit from './app/screen/Credit'
+import Reservation from './app/screen/reservation'
 
 export default function App() {
   return (

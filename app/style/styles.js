@@ -49,5 +49,8 @@ export const styles = StyleSheet.create({
         width: 120,
         height: 50,
         resizeMode: 'contain'
+    },
+    inp : {
+        width : width / 0.2
     }
 })
